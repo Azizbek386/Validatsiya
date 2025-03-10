@@ -35,6 +35,7 @@
     @enderror
     <input type="url" name="website" placeholder="Veb-sayt" value="{{ old('website') }}"><br>
 
+    
   
     @error("date")
    {{ $message }}
@@ -46,6 +47,7 @@
   {{ $message }}
     @enderror
     <input type="number" name="number" placeholder="Raqam" value="{{ old('number') }}"><br>
+
 
 -
     <button type="submit">Submit</button>
