@@ -14,10 +14,9 @@ class StoreUserRequest extends FormRequest
         return true;
     }
 
-    /**
-     * Get the validation rules that apply to the request.
+    /**sx; w2
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     * @return array<string, 
      */
     public function rules(): array
     {
