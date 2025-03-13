@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests\StoruserRequest;
+use App\Http\Requests\StoreUserRequest;
 
 class UserController extends Controller
 {
@@ -28,7 +28,7 @@ class UserController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoruserRequest $request)
+    public function store(StoreUserRequest $request)
     {
         
         return $request ->all();
